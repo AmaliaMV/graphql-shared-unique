@@ -1,5 +1,3 @@
 grails.gorm.default.constraints = {
-    uniqueName nullable: false,
-               blank: false,
-               unique: true
+    uniqueName nullable: false, blank: false, unique: true
 }

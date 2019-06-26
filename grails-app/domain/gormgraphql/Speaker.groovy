@@ -10,10 +10,10 @@ class Speaker {
     static mapWith = "neo4j"
     static graphql = true
 
-    String dni
+    String name
 
     static constraints = {
-        dni shared: 'uniqueName'
+        name shared: 'uniqueName'
     }
 
 }

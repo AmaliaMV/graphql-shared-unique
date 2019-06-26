@@ -6,5 +6,5 @@ import groovy.transform.CompileStatic
 @CompileStatic
 @Service(Speaker)
 interface SpeakerDataService {
-    Speaker save(String dni)
+    Speaker save(String name)
 }
